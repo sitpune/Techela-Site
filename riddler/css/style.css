@@ -1,0 +1,44 @@
+/* style.css */
+
+/* downloadable fonts */
+@import url("/fonts/ubuntu01.css");
+/* end of downloadable fonts */
+
+body{
+    background-color    : #300a24;
+    font-family         : "Ubuntu", serif;
+    color               : #ffffff;
+    font-size           : 20pt;
+    text-align          : justify;
+    cursor              : default;
+    -webkit-user-select : none;
+    -moz-user-select    : none;
+    user-select         : none;
+}
+
+h1, h2, h3, h4{
+    margin-bottom : 0px;
+    text-align    : center;
+}
+
+a{
+    color: #ffffff;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+*:focus{
+    outline: 0;
+}
+
+#superset{
+    width         : 350px;
+    margin        : 0 auto;
+    position      : relative;
+    left          : 0px;
+    right         : 0px;
+    margin-bottom : 75px;
+}
+/* end of style.css */
